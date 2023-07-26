@@ -36,7 +36,6 @@ router.get(
       .optional()
       .isIn(["asc", "desc"])
       .withMessage("Invalid order"),
-    // Add title query parameter
     query("title").optional(),
   ],
   getBlog.getBlogs

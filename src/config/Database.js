@@ -3,7 +3,6 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-// Set up database connection
 const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USER,

@@ -32,7 +32,6 @@ router.post(
   userController.register
 );
 
-// router.get("/verify/:token", verify.verify);
 router.patch("/verify", verify.verify);
 
 router.post(
